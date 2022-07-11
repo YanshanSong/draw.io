@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T07:55:15.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="H0-hdOV0b4RByR1dAqAK" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-11T07:55:25.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2qw3XY-2mL0vlVPuOPRh" version="20.0.4" type="github">
   <diagram id="6vSI8a3LhWSl4HMn6yqh" name="Page-1">
     <mxGraphModel dx="1426" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -12,6 +12,9 @@
         </mxCell>
         <mxCell id="byWvxmWXDXtp3ZkIWIBV-3" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Times New Roman&quot;&gt;Captain(PAAS)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="600" y="80" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="byWvxmWXDXtp3ZkIWIBV-6" value="https://miro.medium.com/max/256/1*2Q4FsymDIDtWS_aqiDbwSA.png" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="770" height="880" as="geometry" />
         </mxCell>
         <mxCell id="byWvxmWXDXtp3ZkIWIBV-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;di-playground&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#99C2FF;strokeColor=#36393d;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="265" y="310" width="230" height="60" as="geometry" />
