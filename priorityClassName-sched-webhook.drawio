@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2022-10-11T09:13:10.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="g2aGb9JNCE3TBTvoS9fT" version="20.2.7" type="github">
+  <diagram id="9jWi9D6QZARKWNpri7Cj" name="Page-1">
+    <mxGraphModel dx="1426" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ye1FHbx5SDXgiRobZuhr-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="600" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ye1FHbx5SDXgiRobZuhr-2" value="OPS DB&lt;br&gt;capacity_for_quota&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="330" y="100" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ye1FHbx5SDXgiRobZuhr-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
+          <mxGeometry x="250" y="222.5" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ye1FHbx5SDXgiRobZuhr-4" value="&lt;font color=&quot;#000000&quot;&gt;Pod&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="375" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ye1FHbx5SDXgiRobZuhr-8" value="PriorityClassName Cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="340" y="252.5" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ye1FHbx5SDXgiRobZuhr-13" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414.5" y="180" as="sourcePoint" />
+            <mxPoint x="415" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ye1FHbx5SDXgiRobZuhr-14" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414.5" y="290" as="sourcePoint" />
+            <mxPoint x="414.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ye1FHbx5SDXgiRobZuhr-17" value="sched-webhook" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="260" y="222.5" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
