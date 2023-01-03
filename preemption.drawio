@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T06:54:14.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="0H0eYWXQYfR2Uh1d8pVd" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-03T06:55:13.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="zzF38cLqRVmpRupgxMEe" version="20.5.3" type="github">
   <diagram id="EfIWoj2RQM2SzFMJU21j" name="Page-1">
     <mxGraphModel dx="1426" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,10 +13,10 @@
         <mxCell id="df-yTaB0bOFZxiIBwngr-5" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;cluster-autoscaler&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="200" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="df-yTaB0bOFZxiIBwngr-6" value="Default Preemption&lt;br&gt;高低优先级抢占" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="df-yTaB0bOFZxiIBwngr-6" value="Default Preemption&lt;br style=&quot;font-size: 12px;&quot;&gt;高低优先级抢占" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="520" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="df-yTaB0bOFZxiIBwngr-7" value="Quota Preemption&lt;br&gt;同优先级抢占" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="df-yTaB0bOFZxiIBwngr-7" value="Quota Preemption&lt;br style=&quot;font-size: 12px;&quot;&gt;同优先级抢占" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="520" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="df-yTaB0bOFZxiIBwngr-8" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="df-yTaB0bOFZxiIBwngr-2" target="df-yTaB0bOFZxiIBwngr-5">
