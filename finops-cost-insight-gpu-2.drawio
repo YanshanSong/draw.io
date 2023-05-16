@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T08:30:28.658Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="xpg1UVPu7sjTLKAEW4o_" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T08:33:14.418Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="eaFwCDjKwSL_7_vqo59f" version="21.3.0" type="github">
   <diagram name="Page-1" id="bKrg-x3zFSyvpLyD1E3B">
     <mxGraphModel dx="1434" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="GcFV9KFk6Yxoja8qU15y-13" value="&lt;b&gt;hive&lt;/b&gt;&lt;br&gt;&lt;br&gt;dim_gpu_self_maintenance_info.hive" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="80" y="435" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GcFV9KFk6Yxoja8qU15y-14" value="&lt;b&gt;hive table&lt;/b&gt;&lt;br&gt;&lt;br&gt;sys_cloud_container.&lt;br&gt;edw_meta_syncer_pod_util" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="GcFV9KFk6Yxoja8qU15y-14" value="&lt;b&gt;hive table&lt;/b&gt;&lt;br&gt;&lt;br&gt;sys_cloud_container.&lt;br&gt;dim_gpu_self_maintenance_info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="360" y="425" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GcFV9KFk6Yxoja8qU15y-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -52,7 +52,7 @@
             <mxPoint x="630" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GcFV9KFk6Yxoja8qU15y-19" value="&lt;b&gt;zeus task&lt;/b&gt;&lt;br&gt;&lt;br&gt;gpu-docker-unit-infer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="GcFV9KFk6Yxoja8qU15y-19" value="&lt;b&gt;zeus task&lt;/b&gt;&lt;br&gt;&lt;br&gt;gpu-bm-unit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="620" y="435" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GcFV9KFk6Yxoja8qU15y-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GcFV9KFk6Yxoja8qU15y-14" target="GcFV9KFk6Yxoja8qU15y-19">
