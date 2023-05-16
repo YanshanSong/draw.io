@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T08:28:40.291Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="oH80Wtxh_DPT-p8p9p_2" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T08:30:28.658Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="xpg1UVPu7sjTLKAEW4o_" version="21.3.0" type="github">
   <diagram name="Page-1" id="bKrg-x3zFSyvpLyD1E3B">
     <mxGraphModel dx="1434" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GcFV9KFk6Yxoja8qU15y-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="GcFV9KFk6Yxoja8qU15y-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="160" width="1520" height="400" as="geometry" />
         </mxCell>
         <mxCell id="GcFV9KFk6Yxoja8qU15y-4" value="&lt;b&gt;hive table&lt;/b&gt;&lt;br&gt;&lt;br&gt;sys_cloud_container.&lt;br&gt;edw_meta_syncer_pod_util" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
