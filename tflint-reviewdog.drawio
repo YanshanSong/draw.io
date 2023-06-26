@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T09:06:09.468Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Liat7w55TrDdJ-23N_G_" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T09:09:43.463Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VZ-WBR7tEVfzUB22UuKB" version="21.5.0" type="github">
   <diagram name="Page-1" id="fkKI0QTlj7mYr6Ezj4V3">
     <mxGraphModel dx="1593" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PbSWIQ1sl0TQKYi19kek-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;gradientColor=none;glass=0;shadow=0;" parent="1" vertex="1">
+        <mxCell id="PbSWIQ1sl0TQKYi19kek-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;gradientColor=none;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="120" width="880" height="560" as="geometry" />
         </mxCell>
         <mxCell id="PbSWIQ1sl0TQKYi19kek-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;terraform-hybrid repo&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;" parent="1" vertex="1">
@@ -19,14 +19,20 @@
             <mxPoint x="570" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y5EaUNvgU3ZK7nc4jMJi-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TFLint&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="360" width="190" height="60" as="geometry" />
+        <mxCell id="y5EaUNvgU3ZK7nc4jMJi-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TFLint&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y5EaUNvgU3ZK7nc4jMJi-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.19;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="y5EaUNvgU3ZK7nc4jMJi-6" target="y5EaUNvgU3ZK7nc4jMJi-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="460" as="sourcePoint" />
             <mxPoint x="570" y="410" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="y5EaUNvgU3ZK7nc4jMJi-13" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;ruleset-template&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y5EaUNvgU3ZK7nc4jMJi-15" value="aws&lt;br&gt;ruleset&lt;br&gt;plugin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="40" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
