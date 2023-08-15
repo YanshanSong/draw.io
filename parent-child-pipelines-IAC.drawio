@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T09:49:36.531Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-_YtaxtJPbWWlrqrEJLn" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T09:58:41.887Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="8bmGoI1meMzZQfebGDv8" version="21.6.8" type="github">
   <diagram name="Page-1" id="MHa0uThEBmlEJx8IqHHs">
     <mxGraphModel dx="1434" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
             <mxPoint x="615" y="309.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vLkftybGqFq13qynbffY-13" value="kv-layout-parser + git tag&lt;br&gt;&lt;b&gt;&lt;i&gt;render&lt;/i&gt;&lt;/b&gt;&lt;br&gt;child-pipeline.gitlab-ci.yml-template" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="vLkftybGqFq13qynbffY-13" value="kv-layout-parser + git tag&lt;br&gt;&lt;b&gt;&lt;i&gt;render&lt;/i&gt;&lt;/b&gt;&lt;br&gt;child-pipeline gitlab-ci.yml-template" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="620" y="280" width="270" height="55" as="geometry" />
         </mxCell>
         <mxCell id="vLkftybGqFq13qynbffY-15" value="child-pipeline&lt;br&gt;.gitlab-ci.yml" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
