@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T11:46:51.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="EoB3ABKXi2-QC9I1vSr5" version="22.0.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-19T11:47:15.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mgu14CPPa1iSUH97TRP0" version="22.0.5" type="github" pages="2">
   <diagram id="oML4_gouzuPYiGP2TInw" name="dind-arch-wrong">
     <mxGraphModel dx="954" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,6 +44,12 @@
         </mxCell>
         <mxCell id="46Hr1MjIBix_DJPc93Du-13" value="Docker cli" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y_KHpHIBqqHHQqBUPnPx-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="46Hr1MjIBix_DJPc93Du-2" target="46Hr1MjIBix_DJPc93Du-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="290" as="sourcePoint" />
+            <mxPoint x="500" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
