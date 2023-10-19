@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T12:18:13.919Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="3x3UPbl_qyDePrWUOP3f" version="22.0.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-19T12:22:09.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ciaMH2PZexj9Xh5l4MNR" version="22.0.5" type="github" pages="4">
   <diagram id="oML4_gouzuPYiGP2TInw" name="dind-arch-wrong">
     <mxGraphModel dx="1434" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -171,6 +171,58 @@
         </mxCell>
         <mxCell id="_kpbd89C-YviH2wY4J1V-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_kpbd89C-YviH2wY4J1V-11" target="_kpbd89C-YviH2wY4J1V-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rwvE26DX4pHHNYtnG4-s" name="optimzation-last-year">
+    <mxGraphModel dx="1434" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n_OFbqn9cAhwKW8XyfsL-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="n_OFbqn9cAhwKW8XyfsL-2" value="Gitlab Cache Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n_OFbqn9cAhwKW8XyfsL-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n_OFbqn9cAhwKW8XyfsL-2" target="VfM0O1WwatQO0bNzEjBn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="280" as="sourcePoint" />
+            <mxPoint x="540" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="220" />
+              <mxPoint x="370" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_OFbqn9cAhwKW8XyfsL-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="n_OFbqn9cAhwKW8XyfsL-2" source="VfM0O1WwatQO0bNzEjBn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="340" as="sourcePoint" />
+            <mxPoint x="420" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="390" />
+              <mxPoint x="310" y="410" />
+              <mxPoint x="270" y="420" />
+              <mxPoint x="220" y="420" />
+              <mxPoint x="140" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_OFbqn9cAhwKW8XyfsL-5" value="Dind Container&lt;br&gt;&lt;br&gt;go mod download&lt;br&gt;go vet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n_OFbqn9cAhwKW8XyfsL-6" value="Dind Container&amp;nbsp;&lt;br&gt;&lt;br&gt;go build component 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n_OFbqn9cAhwKW8XyfsL-7" value="Dind Container&amp;nbsp;&lt;br&gt;&lt;br&gt;go build component 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="320" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n_OFbqn9cAhwKW8XyfsL-8" value="Dind Container&amp;nbsp;&lt;br&gt;&lt;br&gt;go build component 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="410" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VfM0O1WwatQO0bNzEjBn-1" value="Cache&lt;br&gt;/opt/cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
