@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T11:55:57.910Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="9oFjXXzkOf8QFv6Z9V5n" version="22.0.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-19T12:13:22.550Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="oq07roM78l7C5SMfo2kQ" version="22.0.5" type="github" pages="3">
   <diagram id="oML4_gouzuPYiGP2TInw" name="dind-arch-wrong">
-    <mxGraphModel dx="954" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="325" y="165" width="300" height="310" as="geometry" />
         </mxCell>
         <mxCell id="KxnEx9vgpA9sDCwhaRSP-2" value="Runner Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="341.00348837209305" y="180.0009090909091" width="83.72093023255815" height="42.272727272727266" as="geometry" />
+          <mxGeometry x="325.00348837209305" y="165.0009090909091" width="83.72093023255815" height="42.272727272727266" as="geometry" />
         </mxCell>
         <mxCell id="KxnEx9vgpA9sDCwhaRSP-5" value="Dind Container 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="415" y="230" width="120" height="50" as="geometry" />
@@ -29,7 +29,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="dind-arch-right" id="JNClbRmQDYKoDoPEiM_c">
-    <mxGraphModel dx="1122" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,6 +83,58 @@
             <mxPoint x="505" y="230" as="sourcePoint" />
             <mxPoint x="580" y="390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lIpSoz2sdc78iAVSYCSx" name="desired-state">
+    <mxGraphModel dx="1593" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WP-2BcuujWmtLpnqfGA7-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ykDhwmG9TrNjz8t5v6SF-1" value="Gitlab Cache Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykDhwmG9TrNjz8t5v6SF-2" value="Cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="510" y="300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw0l6LknokCD95Gd843R-1" value="Runner Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320.00348837209305" y="160.0009090909091" width="83.72093023255815" height="42.272727272727266" as="geometry" />
+        </mxCell>
+        <mxCell id="6rARnDY2nZ7JMGoO0SLa-5" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ykDhwmG9TrNjz8t5v6SF-1" target="ykDhwmG9TrNjz8t5v6SF-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="280" as="sourcePoint" />
+            <mxPoint x="550" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="180" />
+              <mxPoint x="500" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6rARnDY2nZ7JMGoO0SLa-7" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ykDhwmG9TrNjz8t5v6SF-2" target="ykDhwmG9TrNjz8t5v6SF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="450" as="sourcePoint" />
+            <mxPoint x="420" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="430" />
+              <mxPoint x="280" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6rARnDY2nZ7JMGoO0SLa-8" value="Dind Container&lt;br&gt;&lt;br&gt;go mod download&lt;br&gt;go vet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6rARnDY2nZ7JMGoO0SLa-9" value="Dind Container&amp;nbsp;&lt;br&gt;&lt;br&gt;go build component 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_kpbd89C-YviH2wY4J1V-1" value="Dind Container&amp;nbsp;&lt;br&gt;&lt;br&gt;go build component 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="320" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_kpbd89C-YviH2wY4J1V-2" value="Dind Container&amp;nbsp;&lt;br&gt;&lt;br&gt;go build component 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="410" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
