@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T09:44:58.990Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="LFI2IRC4eZplA_TprDdV" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T09:46:06.792Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3l6pFBXhQB8NwzzZGcGt" version="22.0.8" type="github">
   <diagram name="Page-1" id="SU36zCbASJf7fyGM5k-I">
-    <mxGraphModel dx="1272" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,10 +34,10 @@
             <mxPoint y="15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_IFY_iCp74oIANFbCTMr-20" value="&lt;b&gt;provider&lt;/b&gt;&lt;br&gt;external" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="_IFY_iCp74oIANFbCTMr-20" value="&lt;b&gt;data&lt;br&gt;provider&amp;nbsp;&lt;/b&gt;external" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="585" y="270" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_IFY_iCp74oIANFbCTMr-21" value="&lt;b&gt;provider&lt;/b&gt;&lt;br&gt;gitlab" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="_IFY_iCp74oIANFbCTMr-21" value="&lt;b&gt;data&lt;/b&gt;&lt;br&gt;provider gitlab" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="780" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_IFY_iCp74oIANFbCTMr-22" value="&lt;b&gt;script&lt;/b&gt;&lt;br&gt;parse_image_version" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
