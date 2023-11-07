@@ -1,14 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T09:06:46.819Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zOm_Ykaf0TOA_WEOK2Zx" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T09:21:20.158Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3-9ubXXs8nQqdTpxgtcO" version="22.0.8" type="github">
   <diagram name="Page-1" id="SU36zCbASJf7fyGM5k-I">
-    <mxGraphModel dx="954" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_IFY_iCp74oIANFbCTMr-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="80" y="120" width="440" height="240" as="geometry" />
+          <mxGeometry x="80" y="120" width="680" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="_IFY_iCp74oIANFbCTMr-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="640" y="120" width="440" height="240" as="geometry" />
+        <mxCell id="_IFY_iCp74oIANFbCTMr-5" value="Terraform-Hybrid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_IFY_iCp74oIANFbCTMr-9" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Times New Roman&quot;&gt;launch_templates&lt;br&gt;scaling_configurations&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="100" y="255" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_IFY_iCp74oIANFbCTMr-13" value="locals&lt;br&gt;image_version_id_map" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_IFY_iCp74oIANFbCTMr-14" value="image_id" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="_IFY_iCp74oIANFbCTMr-9" target="_IFY_iCp74oIANFbCTMr-13">
+          <mxGeometry x="-0.0145" y="11" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="280" as="sourcePoint" />
+            <mxPoint x="360" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
