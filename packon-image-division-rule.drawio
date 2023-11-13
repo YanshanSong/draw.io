@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T12:05:11.327Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9VJJDlQ8vppfeXiDWXpS" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T12:06:01.621Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="u8Nrs06MF-CWDV0Exj8z" version="22.1.0" type="github">
   <diagram name="Page-1" id="fqOwUuaoLS2B61Loj_uW">
     <mxGraphModel dx="1804" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="R6VNbhdo5qa_48SImoUf-3" value="CentOS 7 \&lt;br&gt;Amazon Linux 2 \&lt;br&gt;Alibaba Cloud Linux 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="R6VNbhdo5qa_48SImoUf-3" value="CentOS 7&amp;nbsp;&lt;br&gt;Amazon Linux 2&amp;nbsp;&lt;br&gt;Alibaba Cloud Linux 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="280" y="160" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="R6VNbhdo5qa_48SImoUf-4" value="SRE provided source image" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
