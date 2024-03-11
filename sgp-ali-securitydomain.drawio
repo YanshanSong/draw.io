@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T08:59:14.765Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="bb8lgzdp4QjllaJHyHp4" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T09:01:19.167Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="r6QmiJUwlWeK2J7xoPLv" version="24.0.4" type="github">
   <diagram name="Page-1" id="-3_OOTo7Ng89aUFDgDXZ">
     <mxGraphModel dx="1434" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -76,8 +76,8 @@
         <mxCell id="qO8FdPdfGSHjc-FeqnSH-36" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;k8s label/taint&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;cloud.trip.com/vpc&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="220" y="610" width="168" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qO8FdPdfGSHjc-FeqnSH-37" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;k8s label/taint&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;cloud.trip.com/vpc&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="510" y="610" width="168" height="100" as="geometry" />
+        <mxCell id="qO8FdPdfGSHjc-FeqnSH-37" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;k8s label/taint&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;cloud.trip.com/securitydomain&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="510" y="610" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qO8FdPdfGSHjc-FeqnSH-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qO8FdPdfGSHjc-FeqnSH-17" target="qO8FdPdfGSHjc-FeqnSH-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -96,6 +96,9 @@
         </mxCell>
         <mxCell id="qO8FdPdfGSHjc-FeqnSH-43" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;netsd: prod-app&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="544" y="550" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qO8FdPdfGSHjc-FeqnSH-44" value="&lt;b&gt;sb:&lt;/b&gt; security boundary&lt;div&gt;&lt;b&gt;sf: &lt;/b&gt;security function&lt;/div&gt;&lt;div&gt;&lt;b&gt;netsd:&lt;/b&gt; network securitydomain = sb + sf&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="370" width="240" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
