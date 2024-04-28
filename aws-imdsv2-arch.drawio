@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T11:28:02.902Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="3ObP9Cgsl8IvOepb5z5K" version="24.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-28T11:29:32.362Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="l_l9lrkgXiwMOXUVyHmL" version="24.0.4" type="github" pages="3">
   <diagram name="Page-1" id="pGbOxdvhejuG6cvHP6bT">
     <mxGraphModel dx="1509" dy="1937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="MfCQwA7gSsLUHfkPvxt--1" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1035" y="-450" width="480" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="MfCQwA7gSsLUHfkPvxt--2" value="OS Image(AMI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MfCQwA7gSsLUHfkPvxt--1">
+        <mxCell id="MfCQwA7gSsLUHfkPvxt--2" value="OS Image(AMI)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Amazon-Linux&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MfCQwA7gSsLUHfkPvxt--1">
           <mxGeometry x="205" y="90" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MfCQwA7gSsLUHfkPvxt--3" value="Launch Template" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MfCQwA7gSsLUHfkPvxt--1">
@@ -126,7 +126,7 @@
         <mxCell id="SOV2GVt50VkhnmIahWc4-2" value="OS Image(AMI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="SOV2GVt50VkhnmIahWc4-1">
           <mxGeometry x="205" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SOV2GVt50VkhnmIahWc4-3" value="Launch Template" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SOV2GVt50VkhnmIahWc4-1">
+        <mxCell id="SOV2GVt50VkhnmIahWc4-3" value="Launch Template&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fix&amp;nbsp;&lt;b&gt;imdsv2:&lt;font color=&quot;#ff0000&quot;&gt;optional&lt;/font&gt;&lt;/b&gt;&amp;nbsp;in launch template&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SOV2GVt50VkhnmIahWc4-1">
           <mxGeometry x="205" y="120" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SOV2GVt50VkhnmIahWc4-4" value="EC2 Instance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="SOV2GVt50VkhnmIahWc4-1">
@@ -171,16 +171,13 @@
             <mxPoint x="315" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hL-EpqUsdU4c7IX_Iuab-1" value="Fix &lt;b&gt;imdsv2:&lt;font color=&quot;#ff0000&quot;&gt;optional&lt;/font&gt;&lt;/b&gt; in launch template" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="262.5" y="100" width="220" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="hBrvezalI-NMGv_1s-DX-1" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="710" y="170" width="405" height="320" as="geometry" />
         </mxCell>
         <mxCell id="hBrvezalI-NMGv_1s-DX-2" value="OS Image(AMI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hBrvezalI-NMGv_1s-DX-1">
           <mxGeometry x="102.5" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hBrvezalI-NMGv_1s-DX-3" value="Launch Template" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="hBrvezalI-NMGv_1s-DX-1">
+        <mxCell id="hBrvezalI-NMGv_1s-DX-3" value="Launch Template&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fix&amp;nbsp;&lt;b&gt;imdsv2:&lt;font color=&quot;#ff0000&quot;&gt;optional&lt;/font&gt;&lt;/b&gt;&amp;nbsp;in launch template&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="hBrvezalI-NMGv_1s-DX-1">
           <mxGeometry x="205" y="120" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hBrvezalI-NMGv_1s-DX-4" value="EC2 Instance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hBrvezalI-NMGv_1s-DX-1">
@@ -195,7 +192,7 @@
         <mxCell id="hBrvezalI-NMGv_1s-DX-7" value="&lt;b&gt;imdsv2&lt;/b&gt;: &lt;font color=&quot;#ff0000&quot;&gt;optional&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="hBrvezalI-NMGv_1s-DX-1">
           <mxGeometry y="137.18" width="180" height="45.63" as="geometry" />
         </mxCell>
-        <mxCell id="hBrvezalI-NMGv_1s-DX-8" value="&lt;b&gt;imdsv2&lt;/b&gt;: &lt;font color=&quot;#ff0000&quot;&gt;optional&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="hBrvezalI-NMGv_1s-DX-1">
+        <mxCell id="hBrvezalI-NMGv_1s-DX-8" value="&lt;b&gt;imdsv2&lt;/b&gt;:&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="hBrvezalI-NMGv_1s-DX-1">
           <mxGeometry y="255" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hBrvezalI-NMGv_1s-DX-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hBrvezalI-NMGv_1s-DX-1" source="hBrvezalI-NMGv_1s-DX-7" target="hBrvezalI-NMGv_1s-DX-3">
@@ -215,9 +212,6 @@
             <mxPoint x="315" y="90" as="sourcePoint" />
             <mxPoint x="315" y="130" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="hBrvezalI-NMGv_1s-DX-13" value="Fix &lt;b&gt;imdsv2:&lt;font color=&quot;#ff0000&quot;&gt;optional&lt;/font&gt;&lt;/b&gt; in launch template" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="895" y="100" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ICMZW-fwPVstaVTmsFE3-1" value="Newly Release Instance Type" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1050" y="170" width="200" height="80" as="geometry" />
