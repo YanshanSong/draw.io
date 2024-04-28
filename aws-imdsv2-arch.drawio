@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T11:44:41.584Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ti9qMxccjFunBDYl2s1X" version="24.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-28T11:54:52.199Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="McxMwmO9SNpNMXNjf-G0" version="24.0.4" type="github" pages="3">
   <diagram name="Page-1" id="pGbOxdvhejuG6cvHP6bT">
     <mxGraphModel dx="1509" dy="1937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -233,7 +233,7 @@
             <mxPoint x="315" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mddK1zlyDpF-jykEDAGw-13" value="Newly Release Instance Type" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="mddK1zlyDpF-jykEDAGw-2">
+        <mxCell id="mddK1zlyDpF-jykEDAGw-13" value="Newly Release Instance Type&lt;br&gt;from Mid-2024" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="mddK1zlyDpF-jykEDAGw-2">
           <mxGeometry x="440" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mddK1zlyDpF-jykEDAGw-14" value="&lt;b&gt;imdsv2_support&lt;/b&gt;: v2, unset" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="mddK1zlyDpF-jykEDAGw-2">
