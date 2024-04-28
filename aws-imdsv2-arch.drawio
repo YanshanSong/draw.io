@@ -1,56 +1,161 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T11:07:13.642Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="AFm_652AGpVSU20soVzC" version="24.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-28T11:18:16.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="HDCZa9NJ9i4TBlYlZ4j8" version="24.0.4" type="github" pages="3">
   <diagram name="Page-1" id="pGbOxdvhejuG6cvHP6bT">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qsgLCM90UYcvNnULySri-1" value="OS Image(AMI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="240" y="160" width="200" height="80" as="geometry" />
+        <mxCell id="x_q-9-La6sV82_rC-IQt-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="35" y="160" width="405" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="qsgLCM90UYcvNnULySri-2" value="Launch Template" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="240" y="280" width="200" height="80" as="geometry" />
+        <mxCell id="qsgLCM90UYcvNnULySri-1" value="OS Image(AMI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-11">
+          <mxGeometry x="205" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qsgLCM90UYcvNnULySri-3" value="EC2 Instance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="240" y="400" width="200" height="80" as="geometry" />
+        <mxCell id="qsgLCM90UYcvNnULySri-2" value="Launch Template" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-11">
+          <mxGeometry x="205" y="120" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qsgLCM90UYcvNnULySri-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qsgLCM90UYcvNnULySri-1" target="qsgLCM90UYcvNnULySri-2">
+        <mxCell id="qsgLCM90UYcvNnULySri-3" value="EC2 Instance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-11">
+          <mxGeometry x="205" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qsgLCM90UYcvNnULySri-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="x_q-9-La6sV82_rC-IQt-11" source="qsgLCM90UYcvNnULySri-1" target="qsgLCM90UYcvNnULySri-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="430" as="sourcePoint" />
-            <mxPoint x="450" y="380" as="targetPoint" />
+            <mxPoint x="365" y="270" as="sourcePoint" />
+            <mxPoint x="415" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qsgLCM90UYcvNnULySri-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qsgLCM90UYcvNnULySri-2" target="qsgLCM90UYcvNnULySri-3">
+        <mxCell id="qsgLCM90UYcvNnULySri-9" value="&lt;b&gt;imdsv2_support&lt;/b&gt;: v2, unset&lt;div&gt;managed in packon&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-11">
+          <mxGeometry x="5" y="18.75" width="170" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qsgLCM90UYcvNnULySri-10" value="&lt;b&gt;imdsv2&lt;/b&gt;: optional, requred, unset&lt;div&gt;managed in terraform-hybrid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-11">
+          <mxGeometry y="137.18" width="180" height="45.63" as="geometry" />
+        </mxCell>
+        <mxCell id="qsgLCM90UYcvNnULySri-11" value="&lt;b&gt;imdsv2&lt;/b&gt;: optional, requred&lt;div&gt;not managed in&amp;nbsp;&lt;/div&gt;&lt;div&gt;packon &amp;amp;&amp;amp; terraform-hybrid&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-11">
+          <mxGeometry y="255" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qsgLCM90UYcvNnULySri-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="x_q-9-La6sV82_rC-IQt-11" source="qsgLCM90UYcvNnULySri-9" target="qsgLCM90UYcvNnULySri-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="250" as="sourcePoint" />
-            <mxPoint x="350" y="290" as="targetPoint" />
+            <mxPoint x="365" y="270" as="sourcePoint" />
+            <mxPoint x="415" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qsgLCM90UYcvNnULySri-9" value="&lt;b&gt;imdsv2_support&lt;/b&gt;: v2, unset&lt;div&gt;managed in packon&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="40" y="178.75" width="170" height="42.5" as="geometry" />
-        </mxCell>
-        <mxCell id="qsgLCM90UYcvNnULySri-10" value="&lt;b&gt;imdsv2&lt;/b&gt;: optional, requred, unset&lt;div&gt;managed in terraform-hybrid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="35" y="297.18" width="180" height="45.63" as="geometry" />
-        </mxCell>
-        <mxCell id="qsgLCM90UYcvNnULySri-11" value="&lt;b&gt;imdsv2&lt;/b&gt;: optional, requred&lt;div&gt;not managed in&amp;nbsp;&lt;/div&gt;&lt;div&gt;packon &amp;amp;&amp;amp; terraform-hybrid&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="35" y="415" width="180" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qsgLCM90UYcvNnULySri-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qsgLCM90UYcvNnULySri-9" target="qsgLCM90UYcvNnULySri-1">
+        <mxCell id="qsgLCM90UYcvNnULySri-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="x_q-9-La6sV82_rC-IQt-11" source="qsgLCM90UYcvNnULySri-10" target="qsgLCM90UYcvNnULySri-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="430" as="sourcePoint" />
-            <mxPoint x="450" y="380" as="targetPoint" />
+            <mxPoint x="365" y="270" as="sourcePoint" />
+            <mxPoint x="415" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qsgLCM90UYcvNnULySri-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qsgLCM90UYcvNnULySri-10" target="qsgLCM90UYcvNnULySri-2">
+        <mxCell id="qsgLCM90UYcvNnULySri-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="x_q-9-La6sV82_rC-IQt-11" source="qsgLCM90UYcvNnULySri-11" target="qsgLCM90UYcvNnULySri-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="430" as="sourcePoint" />
-            <mxPoint x="450" y="380" as="targetPoint" />
+            <mxPoint x="185" y="50" as="sourcePoint" />
+            <mxPoint x="215" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qsgLCM90UYcvNnULySri-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qsgLCM90UYcvNnULySri-11" target="qsgLCM90UYcvNnULySri-3">
+        <mxCell id="qsgLCM90UYcvNnULySri-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="x_q-9-La6sV82_rC-IQt-11" source="qsgLCM90UYcvNnULySri-2" target="qsgLCM90UYcvNnULySri-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="210" as="sourcePoint" />
-            <mxPoint x="250" y="210" as="targetPoint" />
+            <mxPoint x="315" y="90" as="sourcePoint" />
+            <mxPoint x="315" y="130" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="510" y="160" width="405" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-14" value="OS Image(AMI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-13">
+          <mxGeometry x="205" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-15" value="Launch Template" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-13">
+          <mxGeometry x="205" y="120" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-16" value="EC2 Instance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-13">
+          <mxGeometry x="205" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="x_q-9-La6sV82_rC-IQt-13" source="x_q-9-La6sV82_rC-IQt-14" target="x_q-9-La6sV82_rC-IQt-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="270" as="sourcePoint" />
+            <mxPoint x="415" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-18" value="&lt;b&gt;imdsv2_support&lt;/b&gt;: v2, unset&lt;div&gt;managed in packon&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-13">
+          <mxGeometry x="5" y="18.75" width="170" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-19" value="&lt;b&gt;imdsv2&lt;/b&gt;: &lt;font color=&quot;#ff0000&quot;&gt;optional&lt;/font&gt;&lt;div&gt;managed in terraform-hybrid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-13">
+          <mxGeometry y="137.18" width="180" height="45.63" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-20" value="&lt;b&gt;imdsv2&lt;/b&gt;: &lt;font color=&quot;#ff0000&quot;&gt;optional&lt;/font&gt;&lt;div&gt;not managed in&amp;nbsp;&lt;/div&gt;&lt;div&gt;packon &amp;amp;&amp;amp; terraform-hybrid&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="x_q-9-La6sV82_rC-IQt-13">
+          <mxGeometry y="255" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="x_q-9-La6sV82_rC-IQt-13" source="x_q-9-La6sV82_rC-IQt-18" target="x_q-9-La6sV82_rC-IQt-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="270" as="sourcePoint" />
+            <mxPoint x="415" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="x_q-9-La6sV82_rC-IQt-13" source="x_q-9-La6sV82_rC-IQt-19" target="x_q-9-La6sV82_rC-IQt-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="270" as="sourcePoint" />
+            <mxPoint x="415" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="x_q-9-La6sV82_rC-IQt-13" source="x_q-9-La6sV82_rC-IQt-20" target="x_q-9-La6sV82_rC-IQt-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="185" y="50" as="sourcePoint" />
+            <mxPoint x="215" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="x_q-9-La6sV82_rC-IQt-13" source="x_q-9-La6sV82_rC-IQt-15" target="x_q-9-La6sV82_rC-IQt-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="90" as="sourcePoint" />
+            <mxPoint x="315" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-27" value="OS Image(AMI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="160" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-28" value="Launch Template" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="280" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-29" value="EC2 Instance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="400" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x_q-9-La6sV82_rC-IQt-27" target="x_q-9-La6sV82_rC-IQt-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1365" y="430" as="sourcePoint" />
+            <mxPoint x="1415" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-31" value="&lt;b&gt;imdsv2_support&lt;/b&gt;: v2, unset&lt;div&gt;managed in packon&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="178.75" width="170" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-32" value="&lt;b&gt;imdsv2&lt;/b&gt;: &lt;font color=&quot;#ff0000&quot;&gt;optional&lt;/font&gt;&lt;div&gt;managed in terraform-hybrid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="297.18" width="180" height="45.63" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-33" value="&lt;b&gt;imdsv2&lt;/b&gt;: &lt;font color=&quot;#ff0000&quot;&gt;optional&lt;/font&gt;&lt;div&gt;not managed in&amp;nbsp;&lt;/div&gt;&lt;div&gt;packon &amp;amp;&amp;amp; terraform-hybrid&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="415" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x_q-9-La6sV82_rC-IQt-31" target="x_q-9-La6sV82_rC-IQt-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1365" y="430" as="sourcePoint" />
+            <mxPoint x="1415" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x_q-9-La6sV82_rC-IQt-32" target="x_q-9-La6sV82_rC-IQt-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1365" y="430" as="sourcePoint" />
+            <mxPoint x="1415" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x_q-9-La6sV82_rC-IQt-33" target="x_q-9-La6sV82_rC-IQt-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1185" y="210" as="sourcePoint" />
+            <mxPoint x="1215" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x_q-9-La6sV82_rC-IQt-28" target="x_q-9-La6sV82_rC-IQt-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1315" y="250" as="sourcePoint" />
+            <mxPoint x="1315" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_q-9-La6sV82_rC-IQt-38" value="Fix &lt;b&gt;imdsv2:&lt;font color=&quot;#ff0000&quot;&gt;optional&lt;/font&gt;&lt;/b&gt; in launch template" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
