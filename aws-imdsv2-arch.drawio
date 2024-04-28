@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T11:29:32.362Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="l_l9lrkgXiwMOXUVyHmL" version="24.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-28T11:29:58.333Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="VWaQBtpzba4jaxa6MBsM" version="24.0.4" type="github" pages="3">
   <diagram name="Page-1" id="pGbOxdvhejuG6cvHP6bT">
     <mxGraphModel dx="1509" dy="1937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="MfCQwA7gSsLUHfkPvxt--1" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1035" y="-450" width="480" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="MfCQwA7gSsLUHfkPvxt--2" value="OS Image(AMI)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Amazon-Linux&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MfCQwA7gSsLUHfkPvxt--1">
+        <mxCell id="MfCQwA7gSsLUHfkPvxt--2" value="OS Image(AMI)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Centos7/Amazon-Linux2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MfCQwA7gSsLUHfkPvxt--1">
           <mxGeometry x="205" y="90" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MfCQwA7gSsLUHfkPvxt--3" value="Launch Template" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MfCQwA7gSsLUHfkPvxt--1">
