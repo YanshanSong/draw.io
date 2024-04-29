@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T03:16:46.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="RYwTQk7wuYUT0HWwKyAR" version="24.3.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-29T03:17:53.326Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="qQ7EnmyDnaU2pkgN53P4" version="24.3.1" type="github" pages="3">
   <diagram name="Page-1" id="pGbOxdvhejuG6cvHP6bT">
     <mxGraphModel dx="1593" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
             <mxPoint x="415" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MfCQwA7gSsLUHfkPvxt--10" value="fra-aws current circumstance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="MfCQwA7gSsLUHfkPvxt--1" vertex="1">
+        <mxCell id="MfCQwA7gSsLUHfkPvxt--10" value="sin-aws/fra-aws current circumstance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="MfCQwA7gSsLUHfkPvxt--1" vertex="1">
           <mxGeometry x="95" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MfCQwA7gSsLUHfkPvxt--11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="MfCQwA7gSsLUHfkPvxt--1" source="MfCQwA7gSsLUHfkPvxt--2" target="MfCQwA7gSsLUHfkPvxt--3" edge="1">
