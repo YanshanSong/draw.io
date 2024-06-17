@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T10:54:01.037Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="rSEajCP7JdyeOSohjk3B" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T11:45:08.898Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ZxjJ6R5wfhhEkMCrstCc" version="24.5.4" type="github">
   <diagram name="Page-1" id="VtOVUnE9juQTUxl1hhHI">
     <mxGraphModel dx="954" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZdQssmvMEX9E1QFtgt6g-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;IFS KMS Portal&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="ZdQssmvMEX9E1QFtgt6g-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;IFS KMS Portal&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="280" y="240" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZdQssmvMEX9E1QFtgt6g-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZdQssmvMEX9E1QFtgt6g-1">
@@ -21,8 +21,33 @@
         <mxCell id="ZdQssmvMEX9E1QFtgt6g-3" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;User Input&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;provider&lt;/div&gt;&lt;div&gt;env&lt;/div&gt;&lt;div&gt;nation&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="292.5" y="360" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZdQssmvMEX9E1QFtgt6g-7" value="AKSK for the given&lt;div&gt;provier &amp;amp;&amp;amp; env &amp;amp;&amp;amp; nation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ZdQssmvMEX9E1QFtgt6g-7" value="&lt;b&gt;AKSK&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;div&gt;for the given&lt;div&gt;provider &amp;amp;&amp;amp; env &amp;amp;&amp;amp; nation&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="260" y="480" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdQssmvMEX9E1QFtgt6g-9" value="Accounts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="303.75" y="640" width="112.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdQssmvMEX9E1QFtgt6g-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZdQssmvMEX9E1QFtgt6g-7" target="ZdQssmvMEX9E1QFtgt6g-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="330" as="sourcePoint" />
+            <mxPoint x="370" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdQssmvMEX9E1QFtgt6g-12" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;ListAccounts&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+          <mxGeometry x="358" y="580" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdQssmvMEX9E1QFtgt6g-15" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;User Input&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;provider&lt;/div&gt;&lt;div&gt;env&lt;/div&gt;&lt;div&gt;nation&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="480" y="640" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdQssmvMEX9E1QFtgt6g-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZdQssmvMEX9E1QFtgt6g-9" target="ZdQssmvMEX9E1QFtgt6g-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="680" as="sourcePoint" />
+            <mxPoint x="120" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="680" />
+              <mxPoint x="120" y="280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
