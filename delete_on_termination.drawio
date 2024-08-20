@@ -19,7 +19,7 @@
         <mxCell id="EUOBFGdnlfz-_86akROT-7" value="Packon Provided Container Host OS Image(arm64)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;delete_on_termination: &lt;font color=&quot;#cc0000&quot;&gt;false&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="400" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EUOBFGdnlfz-_86akROT-9" value="AWS Official OS Image(x86_64)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;delete_on_termination: false&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EUOBFGdnlfz-_86akROT-9" value="AWS Official OS Image(x86_64)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;delete_on_termination: true&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="160" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EUOBFGdnlfz-_86akROT-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EUOBFGdnlfz-_86akROT-1" target="EUOBFGdnlfz-_86akROT-4">
