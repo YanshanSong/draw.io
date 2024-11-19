@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e1wBllEiI9DtdUGpIRzY-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="150" width="50" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="e1wBllEiI9DtdUGpIRzY-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="160" as="sourcePoint" />
@@ -16,11 +19,29 @@
             <mxPoint x="520" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e1wBllEiI9DtdUGpIRzY-6" value="The lastet Terraform community version&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;X, Y&lt;/font&gt;&lt;/b&gt;, Z&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="140" width="230" height="60" as="geometry" />
+        <mxCell id="e1wBllEiI9DtdUGpIRzY-6" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span&gt;The latest Terraform community version&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="150" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="e1wBllEiI9DtdUGpIRzY-8" value="The Terraform version within two Releases&amp;nbsp;&lt;br&gt;from the latest Major &amp;amp;&amp;amp; Patch&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 17px;&quot;&gt;Xb, Yb&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;, Zb&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 13px; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="600" y="480" width="250" height="80" as="geometry" />
+        <mxCell id="e1wBllEiI9DtdUGpIRzY-8" value="The Terraform version within two Releases&amp;nbsp;&lt;br style=&quot;font-size: 14px;&quot;&gt;from the latest Major &amp;amp;&amp;amp; Minor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;gradientColor=none;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="495" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e1wBllEiI9DtdUGpIRzY-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="520" as="sourcePoint" />
+            <mxPoint x="200" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1wBllEiI9DtdUGpIRzY-14" value="Version&lt;div&gt;Inteval&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e1wBllEiI9DtdUGpIRzY-40" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;X,&amp;nbsp; &amp;nbsp;Y,&amp;nbsp; &amp;nbsp;Z&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e1wBllEiI9DtdUGpIRzY-43" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Xm,&amp;nbsp; &amp;nbsp;Ym,&amp;nbsp; &amp;nbsp;0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="505" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e1wBllEiI9DtdUGpIRzY-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="505" width="70" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
