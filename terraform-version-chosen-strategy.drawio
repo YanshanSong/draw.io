@@ -86,8 +86,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="terraform-cloud-provider-version-strategy" id="j1X8EAQi7Hy-ihv-SWok">
-    <mxGraphModel dx="1060" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="terraform-cloud-provider-version-chosen-strategy" id="j1X8EAQi7Hy-ihv-SWok">
+    <mxGraphModel dx="909" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="OY6ilr0GxoHXBJMdgs3u-0" />
         <mxCell id="OY6ilr0GxoHXBJMdgs3u-1" parent="OY6ilr0GxoHXBJMdgs3u-0" />
