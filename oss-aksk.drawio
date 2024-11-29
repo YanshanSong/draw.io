@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="stFN8GOo2kvRHpic8nDs">
-    <mxGraphModel dx="1193" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1468" dy="1952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,6 +50,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="170" as="sourcePoint" />
             <mxPoint x="550" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuP38AV7oDN_9I1WBdLA-30" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;AKSK改造前&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-130" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cuP38AV7oDN_9I1WBdLA-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="480" as="sourcePoint" />
+            <mxPoint x="900" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
