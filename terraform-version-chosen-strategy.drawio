@@ -186,7 +186,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ocznfa6rfczVBJhOoMNe" name="terraform-upgrade-steps">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2216" dy="1799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -270,7 +270,7 @@
         <mxCell id="2ioESAFOeCy-PayhKjs5-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ioESAFOeCy-PayhKjs5-64" target="2ioESAFOeCy-PayhKjs5-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2ioESAFOeCy-PayhKjs5-64" value="Uncomment the existing&amp;nbsp;&lt;b&gt;&lt;i&gt;_generated-backend.tf&amp;nbsp;&lt;/i&gt;&lt;/b&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2ioESAFOeCy-PayhKjs5-64" value="Uncomment the local&amp;nbsp;&lt;b&gt;&lt;i&gt;_generated-backend.tf&amp;nbsp;&lt;/i&gt;&lt;/b&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="660" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-66" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform init&amp;nbsp;-migrate-state &lt;/i&gt;command&amp;nbsp;&lt;div&gt;to migrate the local state file&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i style=&quot;font-weight: bold;&quot;&gt;terraform.tfstate &lt;/i&gt;to the remote storage&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -475,7 +475,7 @@
         <mxCell id="9v5nABtTbwp6up9rNysK-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-25" target="9v5nABtTbwp6up9rNysK-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-25" value="Uncomment the existing&amp;nbsp;&lt;b&gt;&lt;i&gt;_generated-backend.tf&amp;nbsp;&lt;/i&gt;&lt;/b&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
+        <mxCell id="9v5nABtTbwp6up9rNysK-25" value="Uncomment the local&amp;nbsp;&lt;b&gt;&lt;i&gt;_generated-backend.tf&amp;nbsp;&lt;/i&gt;&lt;/b&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
           <mxGeometry x="700" y="660" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-26" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform init&amp;nbsp;-migrate-state &lt;/i&gt;command&amp;nbsp;&lt;div&gt;to migrate the local state file&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i style=&quot;font-weight: bold;&quot;&gt;terraform.tfstate &lt;/i&gt;to the remote storage&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
