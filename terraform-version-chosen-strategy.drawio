@@ -469,11 +469,8 @@
         <mxCell id="9v5nABtTbwp6up9rNysK-23" value="&lt;div&gt;Run &lt;b&gt;&lt;i&gt;terraform plan&amp;nbsp;&lt;/i&gt;&lt;/b&gt;command&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
           <mxGeometry x="700" y="475" width="390" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-25" target="9v5nABtTbwp6up9rNysK-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-25" value="Uncomment the local&amp;nbsp;&lt;b&gt;&lt;i&gt;_generated-backend.tf&amp;nbsp;&lt;/i&gt;&lt;/b&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
-          <mxGeometry x="700" y="660" width="390" height="60" as="geometry" />
+          <mxGeometry x="700" y="750" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-26" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform init&amp;nbsp;-migrate-state &lt;/i&gt;command&amp;nbsp;&lt;div&gt;to migrate the local state file&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i style=&quot;font-weight: bold;&quot;&gt;terraform.tfstate &lt;/i&gt;to the remote storage&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
           <mxGeometry x="700" y="845" width="390" height="60" as="geometry" />
@@ -505,12 +502,6 @@
             <mxPoint x="610" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-25" target="9v5nABtTbwp6up9rNysK-26">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="905" y="600" as="sourcePoint" />
-            <mxPoint x="905" y="650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-26" target="9v5nABtTbwp6up9rNysK-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="905" y="810" as="sourcePoint" />
@@ -518,7 +509,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-34" value="&lt;div&gt;Run &lt;b&gt;&lt;i&gt;terraform apply&lt;/i&gt;&lt;/b&gt; command&amp;nbsp;&lt;/div&gt;&lt;div&gt;to generate a new local state file&amp;nbsp;&lt;b&gt;&lt;i&gt;terraform.tfstate&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
-          <mxGeometry x="700" y="760" width="390" height="55" as="geometry" />
+          <mxGeometry x="700" y="665" width="390" height="55" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-35" value="Do Terraform code changes according to the plan results" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
           <mxGeometry x="700" y="565" width="390" height="55" as="geometry" />
@@ -527,12 +518,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="450" as="sourcePoint" />
             <mxPoint x="600" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-35" target="9v5nABtTbwp6up9rNysK-25">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="460" as="sourcePoint" />
-            <mxPoint x="895" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-2">
@@ -581,6 +566,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="270" as="sourcePoint" />
             <mxPoint x="420" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lHvR8To5TTn4bCueUH1n-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-35" target="9v5nABtTbwp6up9rNysK-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="620" as="sourcePoint" />
+            <mxPoint x="610" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lHvR8To5TTn4bCueUH1n-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-34" target="9v5nABtTbwp6up9rNysK-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="620" as="sourcePoint" />
+            <mxPoint x="610" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
