@@ -186,7 +186,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ocznfa6rfczVBJhOoMNe" name="terraform-upgrade-steps">
-    <mxGraphModel dx="2216" dy="1799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2899" dy="2149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,7 +232,7 @@
             <mxPoint x="410" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2ioESAFOeCy-PayhKjs5-43" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="2ioESAFOeCy-PayhKjs5-43" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="320" y="860" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ioESAFOeCy-PayhKjs5-20" target="2ioESAFOeCy-PayhKjs5-59">
@@ -246,7 +246,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2ioESAFOeCy-PayhKjs5-46" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="2ioESAFOeCy-PayhKjs5-46" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="440" y="740" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-48" value="Then use the state import technique&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
@@ -391,7 +391,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="terraform-providers-upgrade-steps" id="XgGI0Z25Ivj_NmmyPKc4">
-    <mxGraphModel dx="2284" dy="1834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2762" dy="2079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="9v5nABtTbwp6up9rNysK-0" />
         <mxCell id="9v5nABtTbwp6up9rNysK-1" parent="9v5nABtTbwp6up9rNysK-0" />
@@ -437,7 +437,7 @@
             <mxPoint x="410" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-15" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
+        <mxCell id="9v5nABtTbwp6up9rNysK-15" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
           <mxGeometry x="320" y="860" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-7" target="9v5nABtTbwp6up9rNysK-21">
@@ -451,7 +451,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-17" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
+        <mxCell id="9v5nABtTbwp6up9rNysK-17" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
           <mxGeometry x="440" y="740" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-18" value="Then use the state import technique&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
