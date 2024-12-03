@@ -211,7 +211,7 @@
         <mxCell id="2ioESAFOeCy-PayhKjs5-25" value="Run &lt;b&gt;&lt;i&gt;terraform init -reconfigure&lt;/i&gt;&lt;/b&gt;&amp;nbsp;command" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="182.5" y="440" width="235" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2ioESAFOeCy-PayhKjs5-31" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform state pull &amp;gt;&amp;nbsp;terraform.tfstate.pre-upgrade-bak&amp;nbsp;&lt;/i&gt;command&amp;nbsp;&lt;div&gt;to backup the state&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2ioESAFOeCy-PayhKjs5-31" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform state pull &amp;gt;&amp;nbsp;terraform.tfstate.pre-upgrade-bak&amp;nbsp;&lt;/i&gt;command&amp;nbsp;&lt;div&gt;to backup the remote state&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="140" width="410" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-32" value="Change current working directory to a component&#39;s directory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -413,7 +413,7 @@
         <mxCell id="9v5nABtTbwp6up9rNysK-8" value="Run &lt;b&gt;&lt;i&gt;terraform init -upgade&lt;/i&gt;&lt;/b&gt;&amp;nbsp;command" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
           <mxGeometry x="182.5" y="440" width="235" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-9" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform state pull &amp;gt;&amp;nbsp;terraform.tfstate.bak&amp;nbsp;&lt;/i&gt;command&amp;nbsp;&lt;div&gt;to backup the state&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
+        <mxCell id="9v5nABtTbwp6up9rNysK-9" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform state pull &amp;gt;&amp;nbsp;terraform.tfstate.bak&amp;nbsp;&lt;/i&gt;command&amp;nbsp;&lt;div&gt;to backup the remote state&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
           <mxGeometry x="130" y="140" width="340" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-10" value="Change current working directory to a component&#39;s directory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
