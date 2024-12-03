@@ -186,7 +186,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ocznfa6rfczVBJhOoMNe" name="terraform-upgrade-steps">
-    <mxGraphModel dx="2443" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2154" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -211,8 +211,8 @@
         <mxCell id="2ioESAFOeCy-PayhKjs5-25" value="Run &lt;b&gt;&lt;i&gt;terraform init -reconfigure&lt;/i&gt;&lt;/b&gt;&amp;nbsp;command" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="182.5" y="440" width="235" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2ioESAFOeCy-PayhKjs5-31" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform state pull &amp;gt;&amp;nbsp;terraform.tfstate.bak&amp;nbsp;&lt;/i&gt;command&amp;nbsp;&lt;div&gt;to backup the state&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="140" width="340" height="70" as="geometry" />
+        <mxCell id="2ioESAFOeCy-PayhKjs5-31" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform state pull &amp;gt;&amp;nbsp;terraform.tfstate.pre-upgrade-bak&amp;nbsp;&lt;/i&gt;command&amp;nbsp;&lt;div&gt;to backup the state&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="140" width="410" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-32" value="Change current working directory to a component&#39;s directory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="50" width="150" height="50" as="geometry" />
@@ -250,7 +250,7 @@
           <mxGeometry x="440" y="740" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-48" value="Then use the state import technique&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="490" y="50" width="200" height="40" as="geometry" />
+          <mxGeometry x="480" y="50" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-53" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform init&amp;nbsp;-migrate-state &lt;/i&gt;command&amp;nbsp;&lt;div&gt;to use the local backend&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="280" width="390" height="60" as="geometry" />
@@ -258,8 +258,8 @@
         <mxCell id="2ioESAFOeCy-PayhKjs5-57" value="Delete the local state file&amp;nbsp;&lt;i style=&quot;font-weight: bold;&quot;&gt;terraform.tfstate&amp;nbsp;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="380" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2ioESAFOeCy-PayhKjs5-59" value="Use &lt;i style=&quot;font-weight: bold;&quot;&gt;ferry-state-importers &lt;/i&gt;to generate import blocks&amp;nbsp;&lt;div&gt;to&amp;nbsp;&amp;nbsp;&lt;b&gt;&lt;i&gt;_generated-backend.tf&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="80" width="390" height="60" as="geometry" />
+        <mxCell id="2ioESAFOeCy-PayhKjs5-59" value="Use &lt;i style=&quot;font-weight: bold;&quot;&gt;ferry-state-importers&amp;nbsp;&lt;/i&gt;&lt;div&gt;to parse&amp;nbsp;&lt;i style=&quot;font-weight: bold;&quot;&gt;terraform.tfstate.pre-upgrade-bak&lt;/i&gt;&amp;nbsp;to generate import blocks&amp;nbsp;&lt;div&gt;to&amp;nbsp;&amp;nbsp;&lt;b&gt;&lt;i&gt;_generated-backend.tf&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="80" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-61" value="First use the in-place update technique&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="-30" y="590" width="217.5" height="30" as="geometry" />
