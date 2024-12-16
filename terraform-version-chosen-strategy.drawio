@@ -246,7 +246,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-46" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="440" y="740" width="60" height="30" as="geometry" />
+          <mxGeometry x="410" y="785" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-48" value="Then use the state import technique&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="500" y="-60" width="200" height="40" as="geometry" />
@@ -475,7 +475,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-17" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="440" y="740" width="60" height="30" as="geometry" />
+          <mxGeometry x="410" y="830" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-18" value="Then use the state import technique&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
           <mxGeometry x="490" width="200" height="40" as="geometry" />
