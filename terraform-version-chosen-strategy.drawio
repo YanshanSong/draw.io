@@ -186,7 +186,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ocznfa6rfczVBJhOoMNe" name="terraform-upgrade-steps">
-    <mxGraphModel dx="2154" dy="1767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2359" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -261,7 +261,7 @@
           <mxGeometry x="700" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-61" value="First use the in-place update technique&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="-37.5" y="640" width="217.5" height="30" as="geometry" />
+          <mxGeometry x="-17.5" y="645" width="217.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2ioESAFOeCy-PayhKjs5-63" value="&lt;div&gt;Run &lt;b&gt;&lt;i&gt;terraform plan&amp;nbsp;&lt;/i&gt;&lt;/b&gt;command&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="400" width="390" height="55" as="geometry" />
@@ -420,7 +420,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="terraform-providers-upgrade-steps" id="XgGI0Z25Ivj_NmmyPKc4">
-    <mxGraphModel dx="2359" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="1834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="9v5nABtTbwp6up9rNysK-0" />
         <mxCell id="9v5nABtTbwp6up9rNysK-1" parent="9v5nABtTbwp6up9rNysK-0" />
@@ -430,32 +430,29 @@
         <mxCell id="9v5nABtTbwp6up9rNysK-3" value="Install the new version of Terraform Provider Binary in the Terraform-Hybrid runner Docker Image&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
           <mxGeometry x="140" y="-40" width="340" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-4" value="Upgrade the &lt;b&gt;&lt;i&gt;version&lt;/i&gt;&lt;/b&gt;&amp;nbsp;field in the &lt;b&gt;&lt;i&gt;required_providers&lt;/i&gt;&lt;/b&gt; block in the provider.tf of a component" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="200" y="300" width="200" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-6" value="Run &lt;b&gt;&lt;i&gt;terraform plan&lt;/i&gt;&lt;/b&gt; command" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="205" y="530" width="190" height="60" as="geometry" />
+          <mxGeometry x="205" y="560" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-7" value="&lt;b&gt;force_new&lt;/b&gt; changes&lt;div&gt;hard to resolve&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="235" y="720" width="130" height="120" as="geometry" />
+          <mxGeometry x="235" y="820" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-8" value="Run &lt;b&gt;&lt;i&gt;terraform init -upgade&lt;/i&gt;&lt;/b&gt;&amp;nbsp;command" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="182.5" y="440" width="235" height="60" as="geometry" />
+          <mxGeometry x="182.5" y="450" width="235" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-9" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform state pull &amp;gt;&amp;nbsp;terraform.tfstate.bak&amp;nbsp;&lt;/i&gt;command&amp;nbsp;&lt;div&gt;to backup the remote state&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="130" y="140" width="340" height="70" as="geometry" />
+          <mxGeometry x="130" y="120" width="340" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-10" value="Change the current working directory to a component&#39;s directory" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="225" y="50" width="150" height="50" as="geometry" />
+          <mxGeometry x="225" y="40" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-11" value="Do Terraform code changes according to the plan results" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="200" y="630" width="200" height="50" as="geometry" />
+          <mxGeometry x="200" y="710" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-12" value="Commit Code Changes" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="231.25" y="940" width="137.5" height="50" as="geometry" />
+          <mxGeometry x="231.25" y="1010" width="137.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-13" value="Comment the local&amp;nbsp;&lt;b&gt;&lt;i&gt;_generated-backend.tf &lt;/i&gt;&lt;/b&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="700" y="180" width="390" height="60" as="geometry" />
+          <mxGeometry x="700" y="120" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-7" target="9v5nABtTbwp6up9rNysK-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -464,16 +461,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-15" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=default;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="320" y="860" width="60" height="30" as="geometry" />
+          <mxGeometry x="315" y="950" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-7" target="9v5nABtTbwp6up9rNysK-21" edge="1">
+        <mxCell id="9v5nABtTbwp6up9rNysK-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9v5nABtTbwp6up9rNysK-1" target="9v5nABtTbwp6up9rNysK-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="600" as="sourcePoint" />
-            <mxPoint x="630" y="280" as="targetPoint" />
+            <mxPoint x="367" y="880" as="sourcePoint" />
+            <mxPoint x="698.8800000000001" y="52.01999999999998" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="550" y="780" />
-              <mxPoint x="550" y="510" />
-              <mxPoint x="550" y="110" />
+              <mxPoint x="560" y="880" />
+              <mxPoint x="562" y="310" />
+              <mxPoint x="560" y="60" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -481,31 +478,31 @@
           <mxGeometry x="440" y="740" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-18" value="Then use the state import technique&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="480" y="50" width="200" height="40" as="geometry" />
+          <mxGeometry x="490" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-19" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform init&amp;nbsp;-migrate-state &lt;/i&gt;command&amp;nbsp;&lt;div&gt;to use the local backend&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="700" y="280" width="390" height="60" as="geometry" />
+          <mxGeometry x="700" y="220" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-20" value="Delete the local state file&amp;nbsp;&lt;i style=&quot;font-weight: bold;&quot;&gt;terraform.tfstate&lt;/i&gt;&lt;div&gt;to empty the local backend state&lt;i style=&quot;font-weight: bold;&quot;&gt;&amp;nbsp;&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="700" y="380" width="390" height="60" as="geometry" />
+          <mxGeometry x="700" y="320" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-21" value="Use&amp;nbsp;&lt;i style=&quot;font-weight: bold;&quot;&gt;ferry-state-importer&lt;/i&gt;&lt;div&gt;to parse&amp;nbsp;&lt;i style=&quot;font-weight: bold;&quot;&gt;terraform.tfstate.pre-upgrade-bak&lt;/i&gt;&amp;nbsp;to generate import blocks&amp;nbsp;&lt;div&gt;to&amp;nbsp;&amp;nbsp;&lt;b&gt;&lt;i&gt;_generated-backend.tf&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="700" y="80" width="390" height="60" as="geometry" />
+        <mxCell id="9v5nABtTbwp6up9rNysK-21" value="Run&amp;nbsp;&lt;i style=&quot;font-weight: bold;&quot;&gt;ferry-state-importer &lt;/i&gt;tool&lt;div&gt;to parse&amp;nbsp;&lt;i style=&quot;font-weight: bold;&quot;&gt;terraform.tfstate.pre-upgrade-bak&lt;/i&gt;&amp;nbsp;to generate import blocks&amp;nbsp;&lt;div&gt;to&amp;nbsp;&amp;nbsp;&lt;b&gt;&lt;i&gt;_generated-import.tf&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
+          <mxGeometry x="700" y="30" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-22" value="First use the in-place update technique&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="-30" y="590" width="217.5" height="30" as="geometry" />
+          <mxGeometry x="-17.5" y="645" width="217.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-23" value="&lt;div&gt;Run &lt;b&gt;&lt;i&gt;terraform plan&amp;nbsp;&lt;/i&gt;&lt;/b&gt;command&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="700" y="475" width="390" height="55" as="geometry" />
+          <mxGeometry x="700" y="420" width="390" height="55" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-25" value="Uncomment the local&amp;nbsp;&lt;b&gt;&lt;i&gt;_generated-backend.tf&amp;nbsp;&lt;/i&gt;&lt;/b&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="700" y="750" width="390" height="60" as="geometry" />
+          <mxGeometry x="700" y="720" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-26" value="Run &lt;i style=&quot;font-weight: bold;&quot;&gt;terraform init&amp;nbsp;-migrate-state &lt;/i&gt;command&amp;nbsp;&lt;div&gt;to migrate the local state file&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i style=&quot;font-weight: bold;&quot;&gt;terraform.tfstate &lt;/i&gt;to the remote storage&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="700" y="845" width="390" height="60" as="geometry" />
+          <mxGeometry x="700" y="820" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-27" value="Commit Code Changes" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="826.25" y="940" width="137.5" height="50" as="geometry" />
+          <mxGeometry x="826.25" y="1010" width="137.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-21" target="9v5nABtTbwp6up9rNysK-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -531,17 +528,11 @@
             <mxPoint x="610" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-26" target="9v5nABtTbwp6up9rNysK-27" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="905" y="810" as="sourcePoint" />
-            <mxPoint x="905" y="850" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-34" value="&lt;div&gt;Run &lt;b&gt;&lt;i&gt;terraform apply&lt;/i&gt;&lt;/b&gt; command&amp;nbsp;&lt;/div&gt;&lt;div&gt;to generate a new local state file&amp;nbsp;&lt;b&gt;&lt;i&gt;terraform.tfstate&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="700" y="665" width="390" height="55" as="geometry" />
+          <mxGeometry x="700" y="620" width="390" height="55" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-35" value="Do Terraform code changes according to the plan results" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
-          <mxGeometry x="700" y="565" width="390" height="55" as="geometry" />
+          <mxGeometry x="700" y="520" width="390" height="55" as="geometry" />
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-23" target="9v5nABtTbwp6up9rNysK-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -559,12 +550,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="170" as="sourcePoint" />
             <mxPoint x="460" y="120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9v5nABtTbwp6up9rNysK-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-9" target="9v5nABtTbwp6up9rNysK-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="310" as="sourcePoint" />
-            <mxPoint x="460" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9v5nABtTbwp6up9rNysK-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-8" target="9v5nABtTbwp6up9rNysK-6" edge="1">
@@ -585,12 +570,6 @@
             <mxPoint x="460" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ima93whtXnZYTd0-7a8o-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-4" target="9v5nABtTbwp6up9rNysK-8" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="270" as="sourcePoint" />
-            <mxPoint x="420" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lHvR8To5TTn4bCueUH1n-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-35" target="9v5nABtTbwp6up9rNysK-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="620" as="sourcePoint" />
@@ -609,19 +588,46 @@
             <mxPoint x="610" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ugDMGopJKTOodbmJXudy-0" value="Evaluate the impact of the upgrade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
+        <mxCell id="ugDMGopJKTOodbmJXudy-0" value="Evaluate the impact of the upgrade" style="rounded=1;whiteSpace=wrap;html=1;" parent="9v5nABtTbwp6up9rNysK-1" vertex="1">
           <mxGeometry x="205" y="-120" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ugDMGopJKTOodbmJXudy-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-2" target="ugDMGopJKTOodbmJXudy-0">
+        <mxCell id="ugDMGopJKTOodbmJXudy-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-2" target="ugDMGopJKTOodbmJXudy-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-90" y="40" as="sourcePoint" />
             <mxPoint x="-40" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ugDMGopJKTOodbmJXudy-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="ugDMGopJKTOodbmJXudy-0">
+        <mxCell id="ugDMGopJKTOodbmJXudy-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="9v5nABtTbwp6up9rNysK-1" source="ugDMGopJKTOodbmJXudy-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-90" y="40" as="sourcePoint" />
             <mxPoint x="300" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jyDoqFiBL4vuQHPmlrPz-0" value="Add a group of version config in the &lt;b&gt;&lt;i&gt;config/provider.yaml&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
+          <mxGeometry x="140" y="230" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jyDoqFiBL4vuQHPmlrPz-1" value="Run&amp;nbsp;&lt;i style=&quot;font-weight: bold;&quot;&gt;ferry-terraform-pre-run &lt;/i&gt;tool&lt;i style=&quot;font-weight: bold;&quot;&gt;&amp;nbsp;&lt;/i&gt;to generate &lt;b&gt;&lt;i&gt;_generated-provider.tf&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
+          <mxGeometry x="110" y="340" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4DhJip6yIrgCC77azWe_-0" value="Run &lt;b&gt;&lt;i&gt;terraform plan&lt;/i&gt;&lt;/b&gt;&amp;nbsp;command to verify the migration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9v5nABtTbwp6up9rNysK-1">
+          <mxGeometry x="700" y="920" width="390" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="iL5PkgNA0WYaa9rP4SAV-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="9v5nABtTbwp6up9rNysK-9" target="jyDoqFiBL4vuQHPmlrPz-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="290" as="sourcePoint" />
+            <mxPoint x="390" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iL5PkgNA0WYaa9rP4SAV-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="jyDoqFiBL4vuQHPmlrPz-0" target="jyDoqFiBL4vuQHPmlrPz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="290" as="sourcePoint" />
+            <mxPoint x="390" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iL5PkgNA0WYaa9rP4SAV-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="9v5nABtTbwp6up9rNysK-1" source="jyDoqFiBL4vuQHPmlrPz-1" target="9v5nABtTbwp6up9rNysK-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="290" as="sourcePoint" />
+            <mxPoint x="390" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
