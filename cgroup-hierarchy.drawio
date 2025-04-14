@@ -130,6 +130,9 @@
         <mxCell id="b8stvGG4L8tqHpXERQID-21" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
           <mxGeometry x="1080" y="240" width="50" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="b8stvGG4L8tqHpXERQID-23" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;cpu.max: max 100000&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="272.5" width="160" height="55" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
