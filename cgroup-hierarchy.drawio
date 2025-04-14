@@ -118,6 +118,15 @@
         <mxCell id="b8stvGG4L8tqHpXERQID-15" value="Node Level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="210" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="b8stvGG4L8tqHpXERQID-18" value="Qos Level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="330" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8stvGG4L8tqHpXERQID-19" value="Pod Level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="450" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8stvGG4L8tqHpXERQID-20" value="Container Level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="570" width="140" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
