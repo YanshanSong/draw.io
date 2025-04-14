@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="Page-1" id="VrustT9aQ9iLsQXw1_XP">
-    <mxGraphModel dx="1798" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2278" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,16 +16,16 @@
         <mxCell id="24xS1FKtoK1Pq3YzGILR-8" value="kubepods-besteffort.slice" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="320" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="24xS1FKtoK1Pq3YzGILR-9" value="kubepods-burstable-pod[podId].slice" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="24xS1FKtoK1Pq3YzGILR-9" value="kubepods-burstable-pod[podId].slice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="280" y="440" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="24xS1FKtoK1Pq3YzGILR-11" value="kubepods-besteffort-pod[podId].slice" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="24xS1FKtoK1Pq3YzGILR-11" value="kubepods-besteffort-pod[podId].slice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="480" y="440" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="24xS1FKtoK1Pq3YzGILR-13" value="cri-containerd-[containerID].slice" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="24xS1FKtoK1Pq3YzGILR-13" value="cri-containerd-[containerID].slice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="280" y="560" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="24xS1FKtoK1Pq3YzGILR-14" value="cri-containerd-[containerID].slice" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="24xS1FKtoK1Pq3YzGILR-14" value="cri-containerd-[containerID].slice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="480" y="560" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="24xS1FKtoK1Pq3YzGILR-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="24xS1FKtoK1Pq3YzGILR-1" target="24xS1FKtoK1Pq3YzGILR-4" edge="1">
@@ -100,7 +100,7 @@
             <mxPoint x="1080" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="24xS1FKtoK1Pq3YzGILR-28" value="kubepods-[podId].slice" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="24xS1FKtoK1Pq3YzGILR-28" value="kubepods-[podId].slice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-10" y="440" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="24xS1FKtoK1Pq3YzGILR-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="24xS1FKtoK1Pq3YzGILR-4" target="24xS1FKtoK1Pq3YzGILR-28" edge="1">
@@ -109,7 +109,7 @@
             <mxPoint x="570" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u81XuuetXmTG_5yvI7nN-1" value="cri-containerd-[containerID].slice" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u81XuuetXmTG_5yvI7nN-1" value="cri-containerd-[containerID].slice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-25" y="560" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="u81XuuetXmTG_5yvI7nN-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24xS1FKtoK1Pq3YzGILR-28" target="u81XuuetXmTG_5yvI7nN-1">
@@ -117,6 +117,9 @@
             <mxPoint x="340" y="470" as="sourcePoint" />
             <mxPoint x="390" y="420" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="u81XuuetXmTG_5yvI7nN-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="420" width="740" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
